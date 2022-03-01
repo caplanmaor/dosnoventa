@@ -10,8 +10,8 @@ const { Pool, Client, Connection } = require("pg");
 const { response } = require("express");
 app.use(bodyParser.json());
 
-app.listen(80, () => {
-  console.log("Server running on port 80");
+app.listen(443, () => {
+  console.log("Server running on port 443");
 });
 
 const credentials = {
