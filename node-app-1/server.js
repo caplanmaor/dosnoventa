@@ -15,10 +15,10 @@ app.listen(process.env.PORT, () => {
 });
 
 const credentials = {
-  user: "qeuxfxugsammfm",
-  host: "ec2-52-30-133-191.eu-west-1.compute.amazonaws.com",
-  database: "d9qeb3pvo87g65",
-  password: "f6a5bc15e2ee4ffcf561147cf7c7831fd35858aa88da57e929976f523fc0bf01",
+  user: "xqlelozjulvbcy",
+  host: "ec2-63-32-7-190.eu-west-1.compute.amazonaws.com",
+  database: "d75khcupa60lbk",
+  password: "893c6d66e37050b408aa87ca15d0cd70647d1b7e18abd84475a90a245a9dafe9",
   port: 5432,
 };
 
