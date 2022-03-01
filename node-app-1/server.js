@@ -15,11 +15,11 @@ app.listen(process.env.PORT, () => {
 });
 
 const credentials = {
-  user: "xqlelozjulvbcy",
-  host: "ec2-63-32-7-190.eu-west-1.compute.amazonaws.com",
-  database: "d75khcupa60lbk",
-  password: "893c6d66e37050b408aa87ca15d0cd70647d1b7e18abd84475a90a245a9dafe9",
-  port: 5432,
+  user: process.env.DB_USER,
+  host: process.env.DB_HOST,
+  database: process.env.DB_DB,
+  password: process.env.DB_PASS,
+  port: process.env.DB_PORT,
 };
 
 async function getBikes() {
