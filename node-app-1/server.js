@@ -11,7 +11,7 @@ const { response } = require("express");
 app.use(bodyParser.json());
 
 app.listen(process.env.PORT, () => {
-  console.log("Server running on port something");
+  console.log(`Server running on port ${process.env.PORT}`);
 });
 
 const credentials = {
