@@ -20,6 +20,9 @@ const credentials = {
   database: "d9qeb3pvo87g65",
   password: "f6a5bc15e2ee4ffcf561147cf7c7831fd35858aa88da57e929976f523fc0bf01",
   port: 5432,
+  connectionString:
+    "postgres://qeuxfxugsammfm:f6a5bc15e2ee4ffcf561147cf7c7831fd35858aa88da57e929976f523fc0bf01@ec2-52-30-133-191.eu-west-1.compute.amazonaws.com:5432/d9qeb3pvo87g65",
+  ssl: "production",
 };
 
 async function getBikes() {
