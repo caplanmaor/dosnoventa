@@ -20,6 +20,7 @@ const credentials = {
   database: process.env.DB_DB,
   password: process.env.DB_PASS,
   port: process.env.DB_PORT,
+  ssl: { rejectUnauthorized: false },
 };
 
 async function getBikes() {
